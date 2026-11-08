@@ -1,0 +1,28 @@
+package frames
+
+// This is the value stored in the FrameMap
+var MyAnimation = DefaultFrameType(myAnimationFrames)
+
+var myAnimationFrames = []string{
+  `┌───┐
+    │   └───┐
+┌───┘       │
+│           │
+└───┐       │
+    │   ┌───┘
+    └───┘`,
+  `┌───────┐
+│       │
+│   ┌───┘
+│   │
+└───┘
+    │
+    └───────`,
+  `┌───┐
+│   │
+└───┼────┐
+    │    │
+┌───┼────┘
+│   │
+└───┘`,
+}
